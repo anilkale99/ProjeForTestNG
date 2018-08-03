@@ -1,5 +1,6 @@
 package com.basic;
 
+import org.junit.Assert;
 import org.testng.annotations.Test;
 
 public class MyTest {
@@ -15,6 +16,12 @@ public class MyTest {
 	@Test
 	public void test3() {
 		System.out.println(" test 3");
+	}
+	
+	@Test
+	public void test4() {
+		System.out.println(" test 4");
+		Assert.assertTrue(false);
 	}
 
 }
